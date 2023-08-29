@@ -10,3 +10,57 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+
+.nav-link {
+    color: grey;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: white;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: white;
+}
+
+.intro {
+
+   margin: 50px 0px;
+}
+
+.jumbotron {
+    background-color: #f1f1f1;
+    padding: 50px 30px;
+}
+
+a.btn.verde {
+    background: #7b964c;
+    border-radius: 0px;
+    color:rgb(0, 0, 0);
+}
+
+a.btn.verde:hover {
+    background: #6d8741;
+    color:white;
+}
+
+h5.card-title {
+    color: #576e30;
+}
+
+.btn.btn-primary.btn-lg {
+    border: 1px solid;
+    font-size: 15px;
+    border-radius: 0px;
+    background: #7b964c;
+}
+
+.footer {
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    background: #212529;
+    padding: 12px;
+}
+
