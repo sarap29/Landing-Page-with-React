@@ -34,13 +34,14 @@
     padding: 50px 30px;
 }
 
-a.btn.verde {
+
+button.btn.btn-verde {
     background: #7b964c;
     border-radius: 0px;
     color:rgb(0, 0, 0);
 }
 
-a.btn.verde:hover {
+button.btn.btn-verde:hover {
     background: #6d8741;
     color:white;
 }
@@ -64,3 +65,15 @@ h5.card-title {
     padding: 12px;
 }
 
+.navbar-brand {
+    color: white;
+}
+
+.navbar-toggler {
+    background: white;
+    text-decoration: none;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: right;
+}
